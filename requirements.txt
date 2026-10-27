@@ -1,0 +1,17 @@
+# Reproducible local reconstruction environment
+# torch==2.10.0 and matching torch_npu are provided by Ascend's base environment.
+# Source /usr/local/Ascend/ascend-toolkit/set_env.sh before importing torch.
+transformers==4.46.3
+diffusers==0.31.0
+huggingface-hub==0.26.2
+torchvision==0.25.0
+timm==1.0.24
+omegaconf
+einops
+trimesh==5.2.0
+scikit-image==0.26.0
+opencv-python-headless
+safetensors
+pymeshlab==2025.7.post1
+numba==0.68.0
+Pillow

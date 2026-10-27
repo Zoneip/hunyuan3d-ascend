@@ -1,0 +1,34 @@
+# Local environments and external sources
+.venv*/
+venv*/
+external/
+models/
+outputs/
+inputs*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+# Secrets and local configuration
+.env
+.env.*
+*token*
+*.pem
+*.key
+# No user media, checkpoints, or generated geometry in code releases
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.part
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.glb
+*.obj
+*.blend
+*.zip
+*.log
